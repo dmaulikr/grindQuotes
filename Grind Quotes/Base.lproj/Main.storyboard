@@ -36,8 +36,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Great Works Are Not Performed By Strength But By Perseverance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhN-I1-aMq">
-                                <rect key="frame" x="36" y="287" width="303" height="93.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <rect key="frame" x="36" y="28" width="303" height="352"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -48,7 +48,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="OhN-I1-aMq" secondAttribute="trailing" constant="20" id="2od-Ce-cdH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OhN-I1-aMq" secondAttribute="trailing" constant="20" id="7bc-AQ-aFK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="834-vC-UXs" secondAttribute="trailing" constant="20" id="Edl-gL-PNW"/>
-                            <constraint firstItem="OhN-I1-aMq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TLr-n4-8Lw"/>
+                            <constraint firstItem="OhN-I1-aMq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-129.5" id="TLr-n4-8Lw"/>
                             <constraint firstItem="OhN-I1-aMq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="UnI-oi-hPY"/>
                             <constraint firstItem="834-vC-UXs" firstAttribute="top" secondItem="OhN-I1-aMq" secondAttribute="bottom" constant="166.5" id="XYb-dU-Bw7"/>
                             <constraint firstItem="834-vC-UXs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Yh3-V5-Q7H"/>
