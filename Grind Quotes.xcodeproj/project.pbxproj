@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					317DEF0B1E7DDD1F000E6E80 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SJFS67T543;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJFS67T543;
 				INFOPLIST_FILE = "Grind Quotes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mlgrier.Grind-Quotes";
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJFS67T543;
 				INFOPLIST_FILE = "Grind Quotes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mlgrier.Grind-Quotes";
