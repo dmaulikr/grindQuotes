@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,28 +22,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great Works Are Not Performed By Strength But By Perseverance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhN-I1-aMq">
-                                <rect key="frame" x="16" y="143" width="343" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjz-y6-0CK">
-                                <rect key="frame" x="164" y="617" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Share"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="834-vC-UXs">
-                                <rect key="frame" x="138" y="556" width="98" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="New Quote"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="834-vC-UXs">
+                                <rect key="frame" x="36" y="547" width="303" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qIG-01-5Xy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" red="0.29666388310000003" green="0.2863364826" blue="0.29901842950000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Show Another Quote"/>
                                 <connections>
                                     <action selector="showQuote" destination="BYZ-38-t0r" eventType="touchUpInside" id="zKa-sj-hY1"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Great Works Are Not Performed By Strength But By Perseverance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhN-I1-aMq">
+                                <rect key="frame" x="36" y="287" width="303" height="93.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.29666388310675568" green="0.28633648260626138" blue="0.29901842948717949" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="834-vC-UXs" secondAttribute="bottom" constant="80" id="0P0-YB-DNi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OhN-I1-aMq" secondAttribute="trailing" constant="20" id="2od-Ce-cdH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OhN-I1-aMq" secondAttribute="trailing" constant="20" id="7bc-AQ-aFK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="834-vC-UXs" secondAttribute="trailing" constant="20" id="Edl-gL-PNW"/>
+                            <constraint firstItem="OhN-I1-aMq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TLr-n4-8Lw"/>
+                            <constraint firstItem="OhN-I1-aMq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="UnI-oi-hPY"/>
+                            <constraint firstItem="834-vC-UXs" firstAttribute="top" secondItem="OhN-I1-aMq" secondAttribute="bottom" constant="166.5" id="XYb-dU-Bw7"/>
+                            <constraint firstItem="834-vC-UXs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Yh3-V5-Q7H"/>
+                            <constraint firstItem="OhN-I1-aMq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="zqb-af-icl"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="grindQuoteLabel" destination="OhN-I1-aMq" id="QKX-dm-hGd"/>
