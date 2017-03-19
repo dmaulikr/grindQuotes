@@ -9,8 +9,8 @@
 import GameKit
 
 
-struct FactProvider {
-    let facts = [
+struct quoteProvider {
+    let quotes = [
         "Ants stretch when they wake up in the morning.",
         "Ostriches can run faster than horses.",
         "Olympic gold medals are actually made mostly of silver.",
@@ -24,7 +24,7 @@ struct FactProvider {
     ]
     
     func randomFact() -> String {
-        let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: facts.count)
-        return facts[randomNumber]
+        let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: quotes.count)
+        return quotes[randomNumber]
     }
 }
