@@ -11,13 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var grindQuoteLabel: UILabel!
-    
     let quoteProvider = QuoteProvider()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        grindQuoteLabel.text = quotes[0]
+        grindQuoteLabel.text = quoteProvider.randomQuote()
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     @IBAction func showQuote() {
         
-        grindQuoteLabel.text = quotes[1]
+        grindQuoteLabel.text = quoteProvider.randomQuote()
         
     }
 

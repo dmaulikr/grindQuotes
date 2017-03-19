@@ -12,7 +12,7 @@
 		317DEF151E7DDD1F000E6E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317DEF131E7DDD1F000E6E80 /* Main.storyboard */; };
 		317DEF171E7DDD1F000E6E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317DEF161E7DDD1F000E6E80 /* Assets.xcassets */; };
 		317DEF1A1E7DDD1F000E6E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317DEF181E7DDD1F000E6E80 /* LaunchScreen.storyboard */; };
-		317DEF221E7DDE04000E6E80 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317DEF211E7DDE04000E6E80 /* QuoteProvider.swift */; };
+		317DEF241E7E2117000E6E80 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317DEF231E7E2117000E6E80 /* QuoteProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		317DEF161E7DDD1F000E6E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		317DEF191E7DDD1F000E6E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		317DEF1B1E7DDD1F000E6E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		317DEF211E7DDE04000E6E80 /* QuoteProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteProvider.swift; sourceTree = "<group>"; };
+		317DEF231E7E2117000E6E80 /* QuoteProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				317DEF0F1E7DDD1F000E6E80 /* AppDelegate.swift */,
 				317DEF111E7DDD1F000E6E80 /* ViewController.swift */,
+				317DEF231E7E2117000E6E80 /* QuoteProvider.swift */,
 				317DEF131E7DDD1F000E6E80 /* Main.storyboard */,
 				317DEF161E7DDD1F000E6E80 /* Assets.xcassets */,
 				317DEF181E7DDD1F000E6E80 /* LaunchScreen.storyboard */,
 				317DEF1B1E7DDD1F000E6E80 /* Info.plist */,
-				317DEF211E7DDE04000E6E80 /* QuoteProvider.swift */,
 			);
 			path = "Grind Quotes";
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				317DEF221E7DDE04000E6E80 /* QuoteProvider.swift in Sources */,
+				317DEF241E7E2117000E6E80 /* QuoteProvider.swift in Sources */,
 				317DEF121E7DDD1F000E6E80 /* ViewController.swift in Sources */,
 				317DEF101E7DDD1F000E6E80 /* AppDelegate.swift in Sources */,
 			);

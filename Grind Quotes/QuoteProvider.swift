@@ -1,30 +1,27 @@
 //
-//  GrindQuotes.swift
+//  QuoteProvider.swift
 //  Grind Quotes
 //
 //  Created by Marco Grier on 3/18/17.
 //  Copyright © 2017 mlgrier. All rights reserved.
 //
 
+
 import GameKit
 
-
-struct quoteProvider {
+struct QuoteProvider {
     let quotes = [
-        "Ants stretch when they wake up in the morning.",
-        "Ostriches can run faster than horses.",
-        "Olympic gold medals are actually made mostly of silver.",
-        "You are born with 300 bones; by the time you are an adult you will have 206.",
-        "It takes about 8 minutes for light from the Sun to reach Earth.",
-        "Some bamboo plants can grow almost a meter in just one day.",
-        "The state of Florida is bigger than England.",
-        "Some penguins can leap 2-3 meters out of the water.",
-        "On average, it takes 66 days to form a new habit.",
-        "Mammoths still walked the Earth when the Great Pyramid was being built."
+        "\"The Way To Get Started Is To Quit Talking And Begin Doing.\" - Walt Disney",
+        "\"Whatever the mind of man can conceive and believe, it can achieve.\" – Napoleon Hill",
+        "\"You miss 100% of the shots you don’t take.\" – Wayne Gretzky",
+        "\"Every strike brings me closer to the next home run.\" – Babe Ruth"
+    
     ]
     
-    func randomFact() -> String {
-        let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: quotes.count)
+    func randomQuote() -> String {
+       let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: quotes.count)
         return quotes[randomNumber]
     }
 }
+
+
