@@ -266,7 +266,7 @@
 				DEVELOPMENT_TEAM = 9T68PQF9U8;
 				INFOPLIST_FILE = "Grind Quotes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlgrier.Grind-Quotes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlgrier.Grind-Quote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +279,7 @@
 				DEVELOPMENT_TEAM = 9T68PQF9U8;
 				INFOPLIST_FILE = "Grind Quotes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlgrier.Grind-Quotes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlgrier.Grind-Quote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
