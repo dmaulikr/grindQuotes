@@ -30,6 +30,10 @@ class ViewController: UIViewController {
         grindQuoteLabel.text = quoteProvider.randomQuote()
         
     }
-
+// Code used to put the share option in the app
+    @IBAction func share(_ sender: Any) {
+        let vc = UIActivityViewController(activityItems: [grindQuoteLabel.text!], applicationActivities: nil)
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
