@@ -41,12 +41,19 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYf-WN-kWW">
-                                <rect key="frame" x="36" y="617" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYf-WN-kWW">
+                                <rect key="frame" x="36" y="612" width="35" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Share"/>
+                                <state key="normal" image="Share"/>
                                 <connections>
                                     <action selector="share:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q8n-u9-eJZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYK-G5-Du6">
+                                <rect key="frame" x="36" y="612" width="35" height="35"/>
+                                <state key="normal" image="Share"/>
+                                <connections>
+                                    <action selector="share:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IDt-eL-vcD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -60,6 +67,7 @@
                             <constraint firstItem="OhN-I1-aMq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="UnI-oi-hPY"/>
                             <constraint firstItem="834-vC-UXs" firstAttribute="top" secondItem="OhN-I1-aMq" secondAttribute="bottom" constant="166.5" id="XYb-dU-Bw7"/>
                             <constraint firstItem="834-vC-UXs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Yh3-V5-Q7H"/>
+                            <constraint firstItem="CYK-G5-Du6" firstAttribute="top" secondItem="834-vC-UXs" secondAttribute="bottom" constant="25" id="e6t-jW-AUR"/>
                             <constraint firstItem="OhN-I1-aMq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="zqb-af-icl"/>
                         </constraints>
                     </view>
@@ -72,4 +80,7 @@
             <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Share" width="100" height="100"/>
+    </resources>
 </document>
